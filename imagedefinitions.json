@@ -1,1 +1,1 @@
-'[{"name":"aspnetcore-container","imageUri":"649407821631.dkr.ecr.eu-west-1.amazonaws.com/baris-dotnetcore:latest"}]'
+[{"name":"aspnetcore-container","imageUri":"649407821631.dkr.ecr.eu-west-1.amazonaws.com/baris-dotnetcore:latest"}]
