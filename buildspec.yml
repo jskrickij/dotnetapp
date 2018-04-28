@@ -18,6 +18,6 @@ phases:
       - echo Pushing the Docker images...
       - docker push 649407821631.dkr.ecr.eu-west-1.amazonaws.com/baris-dotnetcore:latest
       - echo Writing image definitions file...
-      - echo '"name":"aspnetcore-container","image":"649407821631.dkr.ecr.eu-west-1.amazonaws.com/baris-dotnetcore"' > imagedefinitions.json
+      - echo '"name":"aspnetcore-container","imageUri":"649407821631.dkr.ecr.eu-west-1.amazonaws.com/baris-dotnetcore"' > imagedefinitions.json
 artifacts:
     files: imagedefinitions.json
